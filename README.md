@@ -1,16 +1,19 @@
-# nubank_scanner
+# Qr scanner like a nubank
 
-A new Flutter project.
+A Flutter project that implements a Nubank library to scan QR codes with a guide overlay to help the user.
 
-## Getting Started
+The code is organized using mvvm architecture.
 
-This project is a starting point for a Flutter application.
+- nubank lib repository
+  https://github.com/nubank/mobile_scanner
 
-A few resources to get you started if this is your first Flutter project:
+- pub.dev
+  https://pub.dev/packages/mobile_scanner
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  ## Getting start
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**With flutter installed and a device emulator enabled**, Just run in the terminal:
+
+```
+flutter run
+```
