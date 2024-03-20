@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
-import 'package:nubank_scanner/guide_overlay.dart';
-import 'package:nubank_scanner/scanner_view_model.dart';
+import 'package:nubank_scanner/scanner/guide_overlay.dart';
+import 'package:nubank_scanner/scanner/scanner_view_model.dart';
 
 class ScannerView extends StatefulWidget {
   const ScannerView({super.key});
