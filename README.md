@@ -17,3 +17,5 @@ The code is organized using mvvm architecture.
 ```
 flutter run
 ```
+
+<img width="250" src="screenshot/capture_one.png">
