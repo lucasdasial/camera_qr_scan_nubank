@@ -55,10 +55,10 @@ class _ScannerViewState extends State<ScannerView> {
           Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
-              padding: const EdgeInsets.only(bottom: 72),
+              padding: const EdgeInsets.only(top: 128),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
-                mainAxisAlignment: MainAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(8.0),
@@ -82,7 +82,8 @@ class _ScannerViewState extends State<ScannerView> {
           Align(
             alignment: Alignment.topLeft,
             child: Padding(
-                padding: const EdgeInsets.all(24),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 32),
                 child: IconButton(
                   onPressed: () => viewModel.onBackPage(context),
                   icon: Icon(
